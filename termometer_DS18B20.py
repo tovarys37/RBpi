@@ -38,7 +38,6 @@ if __name__ == '__main__':
   id2 = '28-051693e3fdff'
   name2 = 'DayData20180427_' + id2 +'.txt'
      
-    
   #f = open('' + name1, 'a+')
   f2 = open('' + name2, 'a+')
   ii = 0
