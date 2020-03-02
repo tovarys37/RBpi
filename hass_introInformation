@@ -1,0 +1,37 @@
+== start ==
+cd /srv
+sudo chown homeassistant:homeassistant homeassistant
+sudo -u homeassistant -H -s
+cd /srv/homeassistant
+python3 -m venv .
+source bin/activate
+hass
+
+
+pass:
+
+configFile: cd ~/.home...    
+https://www.home-assistant.io/docs/configuration/
+
+
+install home assistant>
+https://www.home-assistant.io/docs/installation/raspberry-pi/
+http://192.168.1.14:8123/
+
+integration>
+https://www.home-assistant.io/integrations/#presence-detection
+https://developers.home-assistant.io/docs/frontend_development/
+https://365tipu.cz/2018/02/24/jak-na-raspberry-pi-udelejte-si-z-raspberry-pi-sitovy-disk-ci-dokonce-nas-13/
+https://www.home-assistant.io/docs/installation/raspberry-pi/
+
+
+authentication
+https://www.home-assistant.io/docs/authentication/
+
+1wire>
+https://www.home-assistant.io/integrations/onewire/
+https://www.raspberrypi-spy.co.uk/2013/03/raspberry-pi-1-wire-digital-thermometer-sensor/
+https://www.waveshare.com/wiki/Raspberry_Pi_Tutorial_Series:_1-Wire_DS18B20_Sensor#Enable_1-Wire
+https://www.maximintegrated.com/en/products/sensors/DS18S20.html
+
+
